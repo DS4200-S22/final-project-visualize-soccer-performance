@@ -1,1 +1,1 @@
-# Put the JavaScript code you write in this folder
+# Contains all JavaScript files.

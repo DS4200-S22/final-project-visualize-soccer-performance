@@ -4,7 +4,7 @@ This template is the starting point for your final project's webpage. Please rea
 
 ## Link to Project Webpage
 
-[Link to Project GitHub Page]('put link to GitHub Page here')
+[Link to Project GitHub Page](https://ds4200-s22.github.io/final-project-soccer-viz/)
 
 ## Setup
 
@@ -38,7 +38,7 @@ Overview of the files and folders provided in your repo.
 
 * `style.css` contains CSS to style the website.
 
-* `LICENCE` is the source code license for the template. You can add your name or leave it as is.
+* `LICENSE` is the source code license for the template. You can add your name or leave it as is.
 
 ### Folders
 
@@ -54,14 +54,14 @@ Each folder has an explanatory `README.md` file.
 
 ## Software license
 
-1. Review the license for your project in `LICENSE`. The default license we include in the template `LICENCE` file is the open source [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause). You are not required to make your project open source but it is preferred and enables easier adoption of your contributions by others. 
+1. Review the license for your project in `LICENSE`. The default license we include in the template `LICENSE` file is the open source [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause). You are not required to make your project open source but it is preferred and enables easier adoption of your contributions by others. 
    
-1. Add your names to `LICENCE`.
+1. Add your names to `LICENSE`.
 If you make any changes to your license other than including your names that are not approved by the teaching staff, you will need to sign a [Non-exclusive Right to Use and Modify Agreement](https://www.ccs.neu.edu/home/cody/courses/shared/S-L_project_partner_usage_agreement.pdf) so your project partner can actually use what you’ve made.
 
 ## Workflow
 
-Instead of all working directly out of the main `gh-pages` branch of your repository, we recommend you try a `branching` model for development. With this model, you will create and checkout `branches` of your repository to work on different features of your final project. After a feature is complete, you will committ changes to the branch you were working on, and then create a pull request to merge your changes back into the main branch of the repository. This will help you avoid accidentally overwriting eachother's code, and will keep your work on different aspects of the project more organized. 
+Instead of all working directly out of the main `gh-pages` branch of your repository, we recommend you try a `branching` model for development. With this model, you will create and checkout `branches` of your repository to work on different features of your final project. After a feature is complete, you will commit changes to the branch you were working on, and then create a pull request to merge your changes back into the main branch of the repository. This will help you avoid accidentally overwriting each other's code, and will keep your work on different aspects of the project more organized. 
 
 You can [learn more about branching here](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf).   
 
