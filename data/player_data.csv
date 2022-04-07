@@ -1,4 +1,4 @@
-﻿Year,Rank,Nation,Player,Position,Team,Age,Born,MP,Starts,Min,90s,Goals,Assists,Goals-PKs,PKs,PKatt,Yellows,Reds,Goals per 90,Assists per 90,G+A per 90,G-PK per 90,G+A-PK per 90,xG,npxG,xA,npxG+xA,xG per 90,xA per 90,xG+xA per 90,npxG per 90,npxG+xA per 90
+﻿Season,Rank,Nation,Player,Position,Team,Age,Born,MP,Starts,Min,90s,Goals,Assists,Goals-PKs,PKs,PKatt,Yellows,Reds,Goals per 90,Assists per 90,G+A per 90,G-PK per 90,G+A-PK per 90,xG,npxG,xA,npxG+xA,xG per 90,xA per 90,xG+xA per 90,npxG per 90,npxG+xA per 90
 2017,1,NED,Patrick van Aanholt,DF,Crystal Palace,26,1990,28,25,2184,24.3,5,1,5,0,0,7,0,0.21,0.04,0.25,0.21,0.25,3.4,3.4,1.8,5.2,0.14,0.07,0.21,0.14,0.21
 2017,2,ENG,Rolando Aarons,FWMF,Newcastle Utd,21,1995,4,1,139,1.5,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0.2,0,0.2,0.1,0,0.1,0.1,0.1
 2017,3,ENG,Tammy Abraham,FW,Swansea City,19,1997,31,15,1726,19.2,5,1,5,0,0,0,0,0.26,0.05,0.31,0.26,0.31,6.7,6.7,1,7.7,0.35,0.05,0.4,0.35,0.4

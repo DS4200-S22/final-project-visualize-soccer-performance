@@ -5,6 +5,7 @@
 
 <head>
   <meta charset='utf-8'>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <title>DS4200 Final Project</title>
   <link rel='stylesheet' href='style.css'>
 </head>
@@ -14,7 +15,7 @@
   <p id=repo-link><span><a href='https://github.com/DS4200-S22/final-project-soccer-viz'>Link to GitHub Repo</a></span>
   </p>
   <div class='content-column'>
-    <h1>Expected Performance In European Football Leagues</h1>
+    <h1>Expected Performance in the English Premier League</h1>
     <p><strong>Floris Dobber</strong></p>
     <p>Course Project as part of
       <a href='https://northeastern.instructure.com/courses/18721'>DS4200 S22: Information Visualization</a>, taught by
@@ -25,10 +26,10 @@
     <h1>Abstract</h1>
     <p>
       By comparing expected goals to actual performance, users will be able to see which soccer teams are over or under
-      performing. This project aims to compile data related to the top 5 European football leagues and create
-      visualizations to represent performance at the team and individual player level. These visualizations will be
-      useful to bring attention to undervalued players, as well as to teams that are beating expectations. The
-      information gained from the visualizations can be used by itself or as a precursor for further analysis.
+      performing. This project aims to compile data related to the English Premier League and create visualizations to
+      represent performance at the team and individual player level. These visualizations will be useful to bring
+      attention to undervalued players, as well as to teams that are beating expectations. The information gained from
+      the visualizations can be used by itself or as a precursor for further analysis.
     </p>
   </div>
 
@@ -45,13 +46,8 @@
       <select name="season" class="selector" id="season"></select>
       <p>| Mode: </p>
       <select name="mode" class="selector" id="mode">
-        <option value="Expected">Expected</option>
-        <option value="Actual">Actual</option>
-      </select>
-      <p>| Metric: </p>
-      <select name="metric" class="selector" id="metric">
-        <option value="Goals">Goals</option>
-        <option value="Assists">Assists</option>
+        <option value="expected">Expected</option>
+        <option value="actual">Actual</option>
       </select>
     </div>
   </div>
@@ -72,7 +68,7 @@
     <h1>Visualization Explanation</h1>
     <p>
       Replace with an explanation of your visualization and linked presentation slides. <strong>Be sure to delete this
-      filler text before your final submission!</strong>
+        filler text before your final submission!</strong>
     </p>
     <h1>Acknowledgments</h1>
     <p>
@@ -98,6 +94,7 @@
   <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
   <script src='lib/d3.v6.1.1/d3.min.js'></script>
   <script src='js/visualization.js'></script>
+
 </body>
 
 </html>

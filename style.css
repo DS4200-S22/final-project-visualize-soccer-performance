@@ -38,13 +38,14 @@ h1, h2, h3 {
 	height: 27px;
 }
 
-#metric {
-	width: 5rem;
-}
-
 .tooltip {
 	position: absolute;
 	border-style: solid;
 	background: white;
 	padding: 0.5rem;
+}
+
+#legend {
+	margin-left: auto;
+	margin-right: 0;
 }
