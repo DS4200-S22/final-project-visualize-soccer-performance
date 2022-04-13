@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 .selector {
 	align-self: flex-start;
-	margin: auto 0.5rem;
+	margin: 20px 0.5rem;
 	height: 27px;
 }
 
@@ -47,5 +47,14 @@ h1, h2, h3 {
 
 #legend {
 	margin-left: auto;
-	margin-right: 0;
+	margin-right: 0px;
+	display: flex;
+}
+
+#legend-label {
+	margin: 20px 5px;
+}
+
+.not-selected {
+	opacity: 0.5;
 }

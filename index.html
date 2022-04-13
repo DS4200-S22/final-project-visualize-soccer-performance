@@ -44,11 +44,14 @@
       </select>
       <p>| Season: </p>
       <select name="season" class="selector" id="season"></select>
-      <p>| Mode: </p>
-      <select name="mode" class="selector" id="mode">
+      <p>| Performance: </p>
+      <select name="performance" class="selector" id="performance">
         <option value="expected">Expected</option>
         <option value="actual">Actual</option>
       </select>
+      <div id="legend">
+        <p id="legend-label">xG per 90</p>
+      </div>
     </div>
   </div>
 
@@ -93,6 +96,7 @@
 
   <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
   <script src='lib/d3.v6.1.1/d3.min.js'></script>
+  <script src="lib/d3-legend/d3-legend.min.js"></script>
   <script src='js/visualization.js'></script>
 
 </body>
