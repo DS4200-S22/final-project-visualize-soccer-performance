@@ -107,7 +107,7 @@ function updateBar() {
   barPlot.selectAll("*").remove();
   legendPlot.selectAll("*").remove();
   createBar();
-}
+};
 
 /**
  * Returns the name of team logo file.
@@ -131,7 +131,7 @@ function teamTooltipContent(team) {
     "<br> <b>xG: </b>" + team.xG +
     "<br> <b>" + yKeyScatter + ": </b>" + team[yKeyScatter]
   );
-}
+};
 
 /**
  * Returns a HTML string to show in the tool tip box.
@@ -268,7 +268,7 @@ function createScatter() {
     // Position tooltip to follow mouse 
     const moveTeamTooltip = function (event, d) {
       teamTooltip.style("left", (event.pageX) + "px")
-        .style("top", (event.pageY + yTooltipOffset) + "px")
+        .style("top", (event.pageY + yTooltipOffset) + "px");
     };
 
     // Return tooltip to transparent when mouse leaves
@@ -277,7 +277,7 @@ function createScatter() {
     };
 
     // Define a brush
-    scatterBrush = d3.brush().extent([[0, 0], [width, height]])
+    scatterBrush = d3.brush().extent([[0, 0], [width, height]]);
 
     // Add brush to scatter plot before points to get layers right
     scatterPlot.call(scatterBrush
