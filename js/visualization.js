@@ -2,7 +2,7 @@
 // Set margins and dimensions 
 const margin = { top: 50, right: 50, bottom: 250, left: 150 };
 const width = 900;
-const height = 800;
+const height = 1000;
 const yTooltipOffset = 15;
 
 // Initialize global variables
@@ -197,7 +197,7 @@ function createScatter() {
       .call(d3.axisLeft(yScaleScatter))
       .attr("font-size", "20px")
       .call((g) => g.append("text")
-        .attr("x", - margin.bottom)
+        .attr("x", - 400)
         .attr("y", - margin.top)
         .attr("fill", "black")
         .attr('transform', 'rotate(-90)')
@@ -355,7 +355,7 @@ function createBar() {
       .call(d3.axisLeft(yScaleBar))
       .attr("font-size", "20px")
       .call((g) => g.append("text")
-        .attr("x", - margin.bottom)
+        .attr("x", - 400)
         .attr("y", - margin.top)
         .attr("fill", "black")
         .attr('transform', 'rotate(-90)')
