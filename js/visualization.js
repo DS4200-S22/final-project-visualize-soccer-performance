@@ -217,7 +217,7 @@ function createScatter() {
         .attr("y2", yScaleScatter(yMaxScatter));
 
       scatterPlot.append("text")
-        .attr("transform", `translate(${xScaleScatter(xMaxScatter)}, ${yScaleScatter(yMaxScatter)+20})rotate(-36)`)
+        .attr("transform", `translate(${xScaleScatter(xMaxScatter)}, ${yScaleScatter(yMaxScatter)+20})rotate(-46)`)
         .attr("text-anchor", "end")
         .attr("fill", "black")
         .attr("opacity", 0.5)
