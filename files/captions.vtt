@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.761 --> 00:00:09.825
+My visualization illustrates performance in the English Premier League through goals and expected goals across 5 different seasons.
+
+00:00:10.214 --> 00:00:16.526
+The visualization is composed of 2 main parts, with a selection of filters and a legend displayed above. 
+
+00:00:17.153 --> 00:00:24.394
+The scatter plot on the left here shows the expected goals for and against for each team in the premier league in the currently selected season. 
+
+00:00:24.394 --> 00:00:30.894
+The dotted lines indicate the average performance in both categories for all teams in the current season. 
+
+00:00:31.733 --> 00:00:38.995
+The bar chart on the right shows the top 10 players by expected goals, again filtered by the currently selected season. 
+
+00:00:39.486 --> 00:00:46.059
+The color of each bar represents their expected goals per 90 minutes, an additional indicator as to the quality of the player.
+
+00:00:47.307 --> 00:00:54.394
+Hovering over either a team or a player will give you the exact numbers as well some additional information.
+
+00:00:55.226 --> 00:00:59.798
+You can filter the bar chart by a specific team or teams by brushing the scatter plot.  
+
+00:01:01.510 --> 00:01:04.271
+This will filter the bar chart, as you can see here.
+
+00:01:05.028 --> 00:01:11.187
+You can select a different season through the drop down menu, which will filter both the scatter plot and the bar chart.
+
+00:01:13.961 --> 00:01:18.268
+To get a better idea of a teams actual performance compared to their expected performance, 
+
+00:01:18.268 --> 00:01:21.170
+you can choose a different mode in the performance drop down.
+
+00:01:21.170 --> 00:01:28.886
+The scatter plot now shows goals and expected goals, with the dotted line indicating what would constitute a match between both metrics. 
+
+00:01:28.886 --> 00:01:34.561
+The bar chart will adjust to show the number of goals scored by a player, as opposed to their expected goals. 
+
+00:01:34.561 --> 00:01:37.072
+Filtering is still available, like before.
+
