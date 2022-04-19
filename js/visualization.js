@@ -205,7 +205,9 @@ function createScatter() {
         .text(yKeyScatter)
       );
 
+    // Add guidelines depending on current mode
     if (yKeyScatter === 'Goals') {
+      // Add diagonal line across the graph
       scatterPlot.append('line')
         .style("stroke", "black")
         .style("stroke-width", 2)
@@ -222,7 +224,8 @@ function createScatter() {
         .attr("fill", "black")
         .attr("opacity", 0.5)
         .text("xG = Goals");
-    } else {
+    } else {  // Mode is "expected"
+      // Add line for average on x and y axis
       scatterPlot.append('line')
         .style("stroke", "black")
         .style("stroke-width", 2)
